@@ -18,6 +18,10 @@ def process_file(uploaded_file):
 if uploaded_file is None:
     st.write("Please upload a file to generate Markdown content.")
 else:
+    regenerate = st.sidebar.button("Regenerate Markdown")
+    if regenerate:
+        st.cache_data.clear()
+
     with st.spinner("Processing..."):
         try:
             markdown_content, optimized_markdown = process_file(uploaded_file)
