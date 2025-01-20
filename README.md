@@ -5,6 +5,7 @@
 AI Markdown Generator is a tool that facilitates the conversion of content from various text formats to Markdown format. It uses language models to optimize the generated content and provide more precise editing.
 
 ![md1](./img/md1.png)
+![md2](./img/md2.png)
 
 ## Features
 
@@ -13,10 +14,10 @@ AI Markdown Generator is a tool that facilitates the conversion of content from 
 - Intuitive user interface with Streamlit.
 - Support for multiple language model providers (OpenAI, Ollama).
 
-![md2](./img/md2.png)
 ![md3](./img/md3.png)
+![md4](./img/md4.png)
 
-*The images above (md2 and md3) are extracted from the NASA document [SMD ESD Spanish](https://www.nasa.gov/wp-content/uploads/2018/08/smd_esd_spanish_tagged.pdf).*
+*The images above are extracted from the NASA document [SMD ESD Spanish](https://www.nasa.gov/wp-content/uploads/2018/08/smd_esd_spanish_tagged.pdf).*
 
 ## Dependencies
 
@@ -56,6 +57,7 @@ AI Markdown Generator is a tool that facilitates the conversion of content from 
     PROVIDER=openai  # or 'ollama'
     OPENAI_API_KEY=your_openai_api_key
     OPENAI_MODEL=openai_model_name
+    INSTALL_OLLAMA=true # or 'false'
     OLLAMA_URL=your_ollama_url
     OLLAMA_MODEL=ollama_model_name
     TEMPERATURE=0.7
@@ -155,6 +157,7 @@ streamlit run __main__.py
     ├── README.md
     ├── __main__.py
     ├── requirements.txt
+    ├── img/
     ├── src/
     │   ├── integrations/
     │   │   ├── langchain/
