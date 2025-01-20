@@ -1,0 +1,48 @@
+# Ignore unnecessary files and directories for the Docker image
+
+# Python files and directories
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment configuration files
+venv/
+.Python
+
+# VSCode configuration files
+.vscode/
+
+# Distribution and packaging files
+build/
+dist/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller files
+*.manifest
+*.spec
+
+# Log files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test and coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Other unnecessary files
+*.log
+*.mo
+*.pot

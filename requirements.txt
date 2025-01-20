@@ -1,0 +1,6 @@
+streamlit==1.41.1
+markitdown==0.0.1a3
+langchain==0.3.14
+python-dotenv==1.0.1
+langchain-ollama==0.2.2
+langchain-openai==0.3.0
