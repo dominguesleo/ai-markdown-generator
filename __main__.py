@@ -15,7 +15,7 @@ def main():
         """
         This application is an assistant that facilitates the conversion of content
         from various text sources into Markdown format. It also includes an intelligent
-        assistant that enables real-time Markdown editing.
+        assistant that enables Markdown generation using AI.
         """
     )
 
